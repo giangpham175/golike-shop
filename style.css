@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* font-family: VIEAvantGardeBold, sans-serif !important; */
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    height: 100%;
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* -
+  -
+  -
+  -
+  - */
+
+
+/* header */
+header.container {
+    padding: 30px 0px;
+}
+img.logo {
+    max-width: 80px;
+}
+
+img.logo-name {
+    max-width: 170px;
+}
+
+a.nav-link {
+    font-family: 'Open Sans', sans-serif !important; 
+    color: #0084F8;
+    font-size: 22px;
+    margin: 0px 7px;
+}
+li.nav-item.buy {
+    border: none;
+    border-radius: 10px;
+    background: #0084F8;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+a.nav-link.buy {
+    color: white;
+}
+
+/* -
+  -
+  -
+  -
+  - */
+
+
+/* footer */
+footer{
+    background-image: url("./assets/img/footer.svg");
+    height: 100%;
+    /* color: white; */
+}
+h1.footer {
+    font-size: 50px;
+}
+.col-md-6.footer {
+    padding: 0px;
+}
+p.footer {
+    margin: 5px 0px;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+h3.footer {
+    margin: 0px 0px 15px 0px;
+    font-size: 23px;
+}
+
+/* -
+  -
+  -
+  -
+  - */
+
+
+/* policy */
+.container.policy {
+    padding: 70px 0px;
+    text-align: justify;
+}
+h1.policy.text-center {
+    padding: 0px 0px 45px 0px;
+    color: #0084F8;
+    font-weight: bold;
+    font-size: 55px;
+}
+h2.policy {
+    font-size: 35px;
+    font-weight: bold;
+}
+p.policy {
+    font-size: 23px;
+    line-height: 33px;
+}
+.col-md-6.policy {
+    padding: 0px;
+}
+
+/* -
+  -
+  -
+  -
+  - */
+
+
+/* pay */
+.container.pay {
+    padding: 70px 0px;
+    text-align: justify;
+}
+h1.pay.text-center {
+    padding: 0px 0px 45px 0px;
+    color: #0084F8;
+    font-weight: bold;
+    font-size: 55px;
+}
+h2.pay {
+    font-size: 35px;
+    font-weight: bold;
+}
+p.pay {
+    font-size: 23px;
+    line-height: 33px;
+}
+.col-md-7.pay {
+    padding: 0px;
+}
+
+/* -
+  -
+  -
+  -
+  - */
+
+
+/* regulation */
+.container.regulation {
+    padding: 70px 0px;
+    text-align: justify;
+}
+h1.regulation.text-center {
+    padding: 0px 0px 45px 0px;
+    color: #0084F8;
+    font-weight: bold;
+    font-size: 55px;
+}
+h2.regulation {
+    font-size: 35px;
+    font-weight: bold;
+}
+p.regulation {
+    font-size: 23px;
+    line-height: 33px;
+}

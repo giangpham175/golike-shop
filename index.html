@@ -6,25 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <!-- bs4 -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <!-- css -->
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <script> 
-        $(function(){
-          $("#header").load("./components/header.html"); 
-          $("#footer").load("./components/footer.html"); 
-        });
-        </script> 
 
     <title>Golike - Shop</title>
 </head>
 
 <body>
-    <div id="header"></div>
+    <header class="container">
+        <nav class="navbar navbar-expand-md ">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/logo.svg" class="logo">
+                <img src="./assets/img/logo-name.svg" class="logo-name">
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <img src="./assets/img/toggle.svg" alt="">
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
+
+                <ul class="navbar-nav mt-2 mt-lg-0 text-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Chính sách bảo mật</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./components/pay.html">Thanh toán</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./components/regulation.html">Quy định </a>
+                    </li>
+                    <li class="nav-item buy">
+                        <a class="nav-link buy" href="">Mua ngay</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <h1 class="footer">Liên hệ chúng tôi</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6 footer">
+                    <p class="footer">Email</p>
+                    <h3 class="footer">golike@gmail.com</h3>
+                    <p class="footer">Phone number</p>
+                    <h3 class="footer" href="tel:84901658888">+84 000 000 000</h3>
+                </div>
+                <div class="col-md-6 footer">
+                    <p class="footer-right">GOLIKE.NET</p>
+                    <p class="footer-right">© Copyright 2019 by Golike <br><br>
+                        All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- <include src="./components/header.html"></include>
 
     Content
 
-    <include src="./components/footer.html"></include>
+    <include src="./components/footer.html"></include> -->
 
 
     <!-- ---------------------------------- -->
