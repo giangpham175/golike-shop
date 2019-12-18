@@ -349,24 +349,99 @@ input[type="checkbox"] {
   - */
 
 @media screen and (max-width: 544px) {
+
     /* header */
+    img.main {
+        width: 90%;
+    }
+
     img.logo {
         width: 40px;
     }
+
     img.logo-name {
         max-width: 120px;
     }
+
     img.toggle {
         width: 25px;
     }
+
     a.nav-link {
         font-size: 15px;
     }
 
+    /* main */
+    h1.main.text-center {
+        padding: 0px 0px 25px 0px;
+        font-size: 25px;
+    }
+
     /* banner */
     button.btn.align-self-end.main {
-        width: 35%;
-        font-size: 12px;
+        width: 25%;
+        font-size: 7px;
     }
-    
+
+    .row.main-banner.justify-content-center {
+        margin: 0px 10px;
+    }
+
+    /* size */
+    table.table.table-bordered.text-center {
+        font-size: 15px;
+    }
+
+    .choose-size {
+        margin: 0px 10px;
+    }
+
+    /* pay */
+    h1.pay.text-center {
+        padding: 0px 0px 25px 0px;
+        font-size: 25px;
+    }
+    .row.pay {
+        margin: 0px 10px;
+    }
+    h2.pay {
+        font-size: 22px;
+    }
+    p.pay {
+        font-size: 17px;
+    }
+
+    /* policy */
+    h1.policy.text-center {
+        padding: 0px 0px 25px 0px;
+        font-size: 25px;
+    }
+    .row.policy {
+        margin: 0px 10px;
+    }
+    h2.policy {
+        font-size: 22px;
+    }
+    p.policy {
+        font-size: 17px;
+    }
+    img.policy {
+        padding: 40px;
+    }
+
+    /* regulation */
+    h1.regulation.text-center {
+        padding: 0px 0px 25px 0px;
+        font-size: 25px;
+    }
+    .row.regulation {
+        margin: 0px 10px;
+    }
+    h2.regulation {
+        font-size: 22px;
+    }
+    p.regulation {
+        font-size: 17px;
+    }
+
 }
