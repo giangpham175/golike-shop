@@ -302,3 +302,42 @@ form.order-info {
     border-radius: 20px;
     color: white;
 }
+
+h2.info {
+    padding: 40px 0px;
+    font-weight: 900;
+    font-size: 65px;
+}
+
+.col-md-8.r {
+    padding: 40px;
+}
+
+p.info {
+    margin: 5px 0px;
+    font-size: 24px;
+}
+
+input.info {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 0px 10px;
+}
+
+button.btn.info {
+    width: 100%;
+    background: #0084F8;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+input[type="checkbox"] {
+    margin-bottom: 15px;
+    transform: scale(1.5);
+}
