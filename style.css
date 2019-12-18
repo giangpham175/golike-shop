@@ -341,3 +341,32 @@ input[type="checkbox"] {
     margin-bottom: 15px;
     transform: scale(1.5);
 }
+
+/* -
+  -
+  -
+  -
+  - */
+
+@media screen and (max-width: 544px) {
+    /* header */
+    img.logo {
+        width: 40px;
+    }
+    img.logo-name {
+        max-width: 120px;
+    }
+    img.toggle {
+        width: 25px;
+    }
+    a.nav-link {
+        font-size: 15px;
+    }
+
+    /* banner */
+    button.btn.align-self-end.main {
+        width: 35%;
+        font-size: 12px;
+    }
+    
+}
