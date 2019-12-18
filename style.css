@@ -196,3 +196,10 @@ button.btn.align-self-end.main {
     font-weight: bold;
     color: #fff;
 }
+
+/* size */
+thead.size {
+    background: linear-gradient(76.73deg, #0084F8 9.02%, #58C2F1 90.81%);
+    color: white;
+    font-weight: bold;
+}
