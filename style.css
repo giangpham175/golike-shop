@@ -56,16 +56,19 @@ a.nav-link.buy {
 
 
 /* footer */
-footer{
-    background-image: url("./assets/img/footer.svg");
-    height: 100%;
-    /* color: white; */
+footer {
+    color: white;
 }
-h1.footer {
-    font-size: 50px;
+h1.row.footer {
+    position: absolute;
+    margin-top: -20%;
 }
 .col-md-6.footer {
-    padding: 0px;
+    position: relative;
+    margin-top: -20%;
+}
+.col-md-6.footer {
+    padding: 20px 0px 0px 0px;
 }
 p.footer {
     margin: 5px 0px;
@@ -163,4 +166,33 @@ h2.regulation {
 p.regulation {
     font-size: 23px;
     line-height: 33px;
+}
+
+/* -
+  -
+  -
+  -
+  - */
+
+
+/* main */
+.container.main {
+    padding: 70px 0px;
+}
+h1.main.text-center {
+    padding: 0px 0px 45px 0px;
+    color: #0084F8;
+    font-weight: bold;
+    font-size: 55px;
+}
+button.btn.align-self-end.main {
+    width: 20%;
+    position: absolute;
+    margin-top: -2%;
+    box-shadow: 4px 4px 1px #000000;
+    background: linear-gradient(57.05deg, #0084F8 9.02%, #58C2F1 90.81%);
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
 }
