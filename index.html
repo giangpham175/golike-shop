@@ -20,126 +20,60 @@
 </head>
 
 <body>
-    <header class="container">
-        <nav class="navbar navbar-expand-md ">
-            <a class="navbar-brand" href="#">
-                <img src="./assets/img/logo.svg" class="logo">
-                <img src="./assets/img/logo-name.svg" class="logo-name">
-            </a>
-            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">
-                    <img src="./assets/img/toggle.svg" alt="">
-                </span>
-            </button>
-
-            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
-
-                <ul class="navbar-nav mt-2 mt-lg-0 text-center">
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="./components/policy.html">Chính sách bảo mật</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./components/pay.html">Thanh toán</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./components/regulation.html">Quy định </a>
-                    </li>
-                    <li class="nav-item buy">
-                        <a class="nav-link buy" href="">Mua ngay</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
 
     <div class="container main">
-        <div class="order-info">
-            <h1 class="main text-center">THÔNG TIN ĐẶT HÀNG</h1>
-            <div class="row order-info">
-                <div class="col-12 col-md-4 l">
-                    <h2 class="info text-center">GIẢM GIÁ NGAY 30%</h2>
-                    <img src="./assets/img/order/order.svg" alt="" style="width: 100%;" class="img-info">
+    </div>
+
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Launch demo modal
+    </button>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header d-block" style="border:none;">
+                    <button type="button" class="close float-right" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h5 class="modal-title text-center" id="exampleModalLabel">XÁC NHẬN ĐẶT HÀNG</h5>
                 </div>
-                <div class="col-12 col-md-8 r">
-                    <p class="info">Tên</p>
-                    <input type="text" placeholder="Nhập tên" class="name info">
-                    <p class="info">Số điện thoại</p>
-                    <input type="text" placeholder="Nhập số điện thoại" class="phone info">
-                    <p class="info">Địa chỉ nhận hàng</p>
-                    <input type="text" placeholder="Nhập địa chỉ nhận hàng" class="add info">
-                    <p class="info">Mẫu áo</p>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <input type="checkbox" name="" id=""> &nbsp;&nbsp; Mẫu 1
-                            <div class="form-group">
-                                <label for="size">Size</label>
-                                <select class="form-control" id="size">
-                                <option>S</option>
-                                <option>M</option>
-                                <option>L</option>
-                                <option>XL</option>
-                                <option>XXL</option>
-                            </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="qty">Số lượng</label>
-                                <select class="form-control" id="qty">
-                                <option>1</option>
-                                <option>2</option>
-                            </select>
-                            </div>
+
+                <div class="modal-body">
+                    <div class="row confirm">
+                        <div class="col-12 col-md-6 reciver">
+                            <h4 class="confirm">THÔNG TIN NGƯỜI NHẬN</h4>
+                            <form class="info" action="">
+                                <p>Tên: Nguyễn Văn A</p>
+                                <p>Số điện thoại: 0123456789</p>
+                                <p>Địa chỉ: Đường a, P B, Q. C, TP.D</p>
+                            </form>
                         </div>
-                        <div class="col-md-6">
-                            <input type="checkbox" name="" id=""> &nbsp;&nbsp; Mẫu 2
-                            <div class="form-group">
-                                <label for="size">Size</label>
-                                <select class="form-control" id="size">
-                                <option>S</option>
-                                <option>M</option>
-                                <option>L</option>
-                                <option>XL</option>
-                            </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="qty">Số lượng</label>
-                                <select class="form-control" id="qty">
-                                <option>1</option>
-                                <option>2</option>
-                            </select>
-                            </div>
+                        <div class="col-12 col-md-6 info">
+                            <h4 class="confirm">THÔNG TIN SẢN PHẨM</h4>
+                            <form class="info" action="">
+                                <p>Mẫu 1</p>
+                                <p>Size áo M</p>
+                                <p>Số lượng 1 áo</p>
+                            </form>
                         </div>
                     </div>
-                    <p class="info">Tổng tiền</p>
-                    <form action="" class="oder-info">
-                        <h1>tổng</h1>
-                    </form>
-                    <br>
-                    <button type="button" class="btn info">ĐẶT HÀNG NGAY</button>
+
+                    <div class="total">
+                        <h4 class="confirm">TỔNG TIỀN</h4>
+                        <form class="info" action="">
+                            <p style="font-size: 20px;margin: 0px;">8000000</p>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="modal-footer" style="text-align:center;border:none;">
+                    <button type="button" class="btn btn-primary" style="margin:auto;display:block;" data-dismiss="modal">XÁC NHẬN</button>
                 </div>
             </div>
         </div>
     </div>
-
-
-    <footer class="container-fluid">
-        <div class="container footer">
-            <h1 class="row footer">Liên hệ chúng tôi <br></h1>
-            <div class="row footer">
-                <div class="col-12 col-md-6 footer">
-                    <p class="footer">Email</p>
-                    <h3 class="footer">golike@gmail.com</h3>
-                    <p class="footer">Phone number</p>
-                    <h3 class="footer" href="tel:84901658888">+84 000 000 000</h3>
-                </div>
-                <div class="col-12 col-md-6 footer">
-                    <p class="footer-right">GOLIKE.NET</p>
-                    <p class="footer-right">© Copyright 2019 by Golike <br><br> All rights reserved.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
 
     <!-- ---------------------------------- -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
