@@ -4,7 +4,6 @@
 }
 
 body {
-    /* font-family: VIEAvantGardeBold, sans-serif !important; */
     font-family: 'Nunito', sans-serif;
     width: 100%;
     height: 100%;
@@ -206,7 +205,11 @@ p.regulation {
 /* main */
 
 .container.main {
-    padding: 70px 0px;
+    padding: 20px 0px;
+}
+
+.row.main-banner.justify-content-center {
+    padding-bottom: 70px;
 }
 
 h1.main.text-center {
@@ -216,7 +219,8 @@ h1.main.text-center {
     font-size: 55px;
 }
 
-button.btn.align-self-end.main {
+
+/* button.btn.align-self-end.main {
     width: 20%;
     position: absolute;
     margin-top: -2%;
@@ -226,10 +230,27 @@ button.btn.align-self-end.main {
     font-size: 24px;
     font-weight: bold;
     color: #fff;
+} */
+
+a.banner.main.text-center {
+    width: 30%;
+    position: absolute;
+    margin-top: -2%;
+    box-shadow: 4px 4px 1px #000000;
+    background: linear-gradient(57.05deg, #0084F8 9.02%, #58C2F1 90.81%);
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    padding: 5px;
 }
 
 
 /* size */
+
+.choose-size {
+    padding-bottom: 70px;
+}
 
 thead.size {
     background: linear-gradient(76.73deg, #0084F8 9.02%, #58C2F1 90.81%);
@@ -239,6 +260,10 @@ thead.size {
 
 
 /* choose-order */
+
+.choose-order {
+    padding-bottom: 70px;
+}
 
 img.s-main {
     height: 528px;
@@ -262,7 +287,18 @@ s {
     font-size: 25px;
 }
 
-button.btn.girl {
+
+/* button.btn.girl {
+    background: #0084F8;
+    font-size: 35px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 70px;
+    color: white;
+    font-weight: bold;
+} */
+
+a.btn.girl {
     background: #0084F8;
     font-size: 35px;
     border: none;
@@ -272,7 +308,18 @@ button.btn.girl {
     font-weight: bold;
 }
 
-button.btn.boy {
+
+/* button.btn.boy {
+    background: #0084F8;
+    font-size: 35px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 70px;
+    color: white;
+    font-weight: bold;
+} */
+
+a.btn.boy {
     background: #0084F8;
     font-size: 35px;
     border: none;
@@ -375,6 +422,10 @@ form.total {
     font-weight: 900;
 }
 
+h4.confirm {
+    padding-top: 10px;
+}
+
 
 /* -
   -
@@ -405,7 +456,7 @@ form.total {
         font-size: 25px;
     }
     /* banner */
-    button.btn.align-self-end.main {
+    a.banner.main.text-center {
         width: 25%;
         font-size: 7px;
     }
@@ -494,11 +545,19 @@ form.total {
     s {
         font-size: 15px;
     }
-    button.btn.girl {
+    /* button.btn.girl {
+        font-size: 14px;
+        margin: 0px 0px 20px 0px;
+    } */
+    /* button.btn.boy {
+        font-size: 14px;
+        margin: 0px 0px 20px 0px;
+    } */
+    a.btn.girl {
         font-size: 14px;
         margin: 0px 0px 20px 0px;
     }
-    button.btn.boy {
+    a.btn.boy {
         font-size: 14px;
         margin: 0px 0px 20px 0px;
     }

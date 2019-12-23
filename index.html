@@ -20,65 +20,386 @@
 </head>
 
 <body>
+    <header class="container">
+        <nav class="navbar navbar-expand-md ">
+            <a class="navbar-brand" href="index.html">
+                <img src="./assets/img/logo.svg" class="logo">
+                <img src="./assets/img/logo-name.svg" class="logo-name">
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <img src="./assets/img/toggle.svg" alt="">
+                </span>
+        </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
+
+                <ul class="navbar-nav mt-2 mt-lg-0 text-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="policy.html">Chính sách bảo mật</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pay.html">Thanh toán</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="regulation.html">Quy định </a>
+                    </li>
+                    <li class="nav-item buy">
+                        <a class="nav-link buy" href="#orderInfo">Mua ngay</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
     <div class="container main">
-    </div>
+        <!-- banner -->
+        <div class="row main-banner justify-content-center">
+            <img src="./assets/img/banner.png" class="main" style="max-width: 100%">
+            <a class="banner main text-center align-self-end " href="#orderInfo">
+            ĐẶT HÀNG NGAY
+        </a>
+        </div>
 
+        <!-- size -->
+        <div class="choose-size">
+            <h1 class="main text-center">CÁCH CHỌN SIZE ÁO</h1>
+            <table class="col-12 col-md-6 table table-bordered text-center boy">
+                <thead class="size">
+                    <tr>
+                        <th scope="col">NAM (kg)</th>
+                        <th scope="col">Dưới 1m68</th>
+                        <th scope="col">1m68 - 1m74</th>
+                        <th scope="col">1m75 - 1m80</th>
+                        <th scope="col">Trên 1m80</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Dưới 53kg</th>
+                        <td>S</td>
+                        <td>M</td>
+                        <td>M</td>
+                        <td>M</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">53kg - 60kg</th>
+                        <td>S , M</td>
+                        <td>M , L</td>
+                        <td>L , XL</td>
+                        <td>XL</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Trên 60kg</th>
+                        <td>M</td>
+                        <td>L , XL</td>
+                        <td>XL</td>
+                        <td>XL</td>
+                    </tr>
+                </tbody>
+            </table>
 
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-        Launch demo modal
-    </button>
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header d-block" style="border:none;">
-                    <button type="button" class="close float-right" data-dismiss="modal" aria-label="Close">
+            <br><br>
+
+            <table class="col-12 col-md-6 table table-bordered text-center girl">
+                <thead class="size">
+                    <tr>
+                        <th scope="col">NỮ (kg)</th>
+                        <th scope="col">Dưới 1m50</th>
+                        <th scope="col">1m50 - 1m60</th>
+                        <th scope="col">1m60 - 1m70</th>
+                        <th scope="col">Trên 1m70</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Dưới 40kg</th>
+                        <td>S</td>
+                        <td>M</td>
+                        <td>M</td>
+                        <td>M</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">40kg - 50kg</th>
+                        <td>S , M</td>
+                        <td>M , L</td>
+                        <td>L , XL</td>
+                        <td>XL</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">50kg - 60kg</th>
+                        <td>M</td>
+                        <td>L</td>
+                        <td>L , XL</td>
+                        <td>XL</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Trên 60kg</th>
+                        <td>L</td>
+                        <td>L , XL</td>
+                        <td>XL</td>
+                        <td>XXL</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- order -->
+        <div class="choose-order">
+            <h1 class="main text-center">SỞ HỮU MẪU ÁO HẤP DẪN</h1>
+            <div class="row order-main">
+                <div class="col-12 col-md-6 girl text-center">
+                    <div class="row img-main left">
+                        <div class="img-main col-12 col-md-7" style="padding: 0px;">
+                            <img src="./assets/img/order/style-1a.svg" alt="" class="s-main">
+                        </div>
+                        <div class="img-main col-6 col-md-5" style="padding: 0px;">
+                            <img src="./assets/img/order/style-1b.svg" alt="" class="sb-main">
+                            <img src="./assets/img/order/style-1c.svg" alt="" class="sb-main">
+                        </div>
+                    </div>
+                    <div class="d-flex price-l">
+                        <div class="mr-auto p-2 price"><s>115.000 vnđ</s></div>
+                        <div class="p-2 sale">Giá 80.000 vnđ</div>
+                    </div>
+                    <a class="btn girl" href="#orderInfo">ĐẶT HÀNG NGAY</a>
+                    <!-- <button type="button" class="btn girl">ĐẶT HÀNG NGAY</button> -->
+                </div>
+
+                <div class="col-12 col-md-6 boy text-center">
+                    <div class="row img-main right">
+                        <div class="img-main col-12 col-md-7" style="padding: 0px;">
+                            <img src="./assets/img/order/style-2a.svg" alt="" class="s-main">
+                        </div>
+                        <div class="img-main col-6 col-md-5" style="padding: 0px;">
+                            <img src="./assets/img/order/style-2b.svg" alt="" class="sb-main">
+                            <img src="./assets/img/order/style-2c.svg" alt="" class="sb-main">
+                        </div>
+                    </div>
+                    <div class="d-flex price-r">
+                        <div class="mr-auto p-2 price r"><s>115.000 vnđ</s></div>
+                        <div class="p-2 sale r">Giá 80.000 vnđ</div>
+                    </div>
+                    <a class="btn boy" href="#orderInfo">ĐẶT HÀNG NGAY</a>
+                    <!-- <button type="button" class="btn boy">ĐẶT HÀNG NGAY</button> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- order-info -->
+        <div id="orderInfo" class="order-info">
+            <h1 class="main text-center">THÔNG TIN ĐẶT HÀNG</h1>
+            <div class="row order-info">
+                <div class="col-12 col-md-4 l">
+                    <h2 class="info text-center">GIẢM GIÁ NGAY 30%</h2>
+                    <img src="./assets/img/order/order.png" alt="" style="width: 100%;">
+                </div>
+                <div class="col-12 col-md-8 r">
+                    <p class="info">Tên</p>
+                    <input type="text" placeholder="Nhập tên" class="name info">
+                    <p class="info">Số điện thoại</p>
+                    <input type="text" placeholder="Nhập số điện thoại" class="phone info">
+                    <p class="info">Địa chỉ nhận hàng</p>
+                    <input type="text" placeholder="Nhập địa chỉ nhận hàng" class="add info">
+                    <p class="info">Mẫu áo</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="checkbox" name="checkbox1" id="pattern1" onclick="clickCheckBox(this)"> &nbsp;&nbsp; Mẫu 1
+                            <div class="form-group">
+                                <label for="size">Size</label>
+                                <select class="form-control" id="size1">
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                                <option>XL</option>
+                                <option>XXL</option>
+                            </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="qty">Số lượng</label>
+                                <input class="form-control qty" id="qty1" type="number" value="1" min="1">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="checkbox" name="checkbox2" id="pattern2" onclick="clickCheckBox(this)"> &nbsp;&nbsp; Mẫu 2
+                            <div class="form-group">
+                                <label for="size">Size</label>
+                                <select class="form-control" id="size2">
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                                <option>XL</option>
+                            </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="qty">Số lượng</label>
+                                <input class="form-control qty" id="qty2" type="number" value="1" min="1">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="info">Tổng tiền</p>
+                    <form action="" class="oder-info">
+                        <h1 id="total_orders"></h1>
+                    </form>
+                    <br>
+                    <button type="button" class="btn info " data-toggle="modal" data-target="#confirmInfo">ĐẶT HÀNG NGAY
+                </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- confirm-info -->
+        <div class="modal fade" id="confirmInfo" tabindex="-1" role="dialog" aria-labelledby="confirmModal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header d-block" style="border:none;">
+                        <button type="button" class="close float-right" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
-                    <h5 class="modal-title text-center" id="exampleModalLabel">XÁC NHẬN ĐẶT HÀNG</h5>
-                </div>
+                        <h5 class="modal-title text-center" id="confirmModal">XÁC NHẬN ĐẶT HÀNG</h5>
+                    </div>
 
-                <div class="modal-body">
-                    <div class="row confirm">
-                        <div class="col-12 col-md-6 reciver">
-                            <h4 class="confirm">THÔNG TIN NGƯỜI NHẬN</h4>
-                            <form class="info" action="">
-                                <p>Tên: Nguyễn Văn A</p>
-                                <p>Số điện thoại: 0123456789</p>
-                                <p>Địa chỉ: Đường a, P B, Q. C, TP.D</p>
-                            </form>
+                    <div class="modal-body">
+                        <div class="row confirm">
+                            <div class="col-12 col-md-6 reciver">
+                                <h4 class="confirm">THÔNG TIN NGƯỜI NHẬN</h4>
+                                <form class="info" action="">
+                                    <p>Tên: <span id="popup_name"></span></p>
+                                    <p>Số điện thoại: <span id="popup_phone"></span></p>
+                                    <p>Địa chỉ: <span id="popup_address"></span></p>
+                                </form>
+                            </div>
+                            <div class="col-12 col-md-6 info">
+                                <h4 class="confirm">THÔNG TIN SẢN PHẨM</h4>
+                                <form class="info" action="">
+                                    <p>Mẫu 1</p>
+                                    <p>Size áo M</p>
+                                    <p>Số lượng 1 áo</p>
+                                </form>
+                            </div>
                         </div>
-                        <div class="col-12 col-md-6 info">
-                            <h4 class="confirm">THÔNG TIN SẢN PHẨM</h4>
+
+                        <div class="total">
+                            <h4 class="confirm">TỔNG TIỀN</h4>
                             <form class="info" action="">
-                                <p>Mẫu 1</p>
-                                <p>Size áo M</p>
-                                <p>Số lượng 1 áo</p>
+                                <p id="popup_total" style="font-size: 20px;margin: 0px;">0</p>
                             </form>
                         </div>
                     </div>
 
-                    <div class="total">
-                        <h4 class="confirm">TỔNG TIỀN</h4>
-                        <form class="info" action="">
-                            <p style="font-size: 20px;margin: 0px;">8000000</p>
-                        </form>
+                    <div class="modal-footer" style="text-align:center;border:none;">
+                        <button type="button" id="confirm_order" class="btn btn-primary" style="margin:auto;display:block;">
+                        XÁC NHẬN
+                    </button>
                     </div>
-                </div>
-
-                <div class="modal-footer" style="text-align:center;border:none;">
-                    <button type="button" class="btn btn-primary" style="margin:auto;display:block;" data-dismiss="modal">XÁC NHẬN</button>
                 </div>
             </div>
         </div>
     </div>
 
+    <footer class="container-fluid">
+        <div class="container footer">
+            <h1 class="row footer">Liên hệ chúng tôi <br></h1>
+            <div class="row footer">
+                <div class="col-12 col-md-6 footer">
+                    <p class="footer">Email</p>
+                    <h3 class="footer">golike@gmail.com</h3>
+                    <p class="footer">Phone number</p>
+                    <h3 class="footer" href="tel:84901658888">+84 000 000 000</h3>
+                </div>
+                <div class="col-12 col-md-6 footer">
+                    <p class="footer-right">GOLIKE.NET</p>
+                    <p class="footer-right">© Copyright 2019 by Golike <br><br> All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- ---------------------------------- -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        var checkbox1 = document.getElementById("pattern1");
+        var checkbox2 = document.getElementById("pattern2");
+        var qty1 = 1;
+        var qty2 = 1;
+        const price_per = 80000;
+        const price_origin = 115000;
+        var total = 0;
+        var total_pattern1 = 0;
+        var total_pattern2 = 0;
+
+        $(document).ready(function() {
+            showTotal(total)
+        });
+        //event change quantity
+        $(".qty").change(function(e) {
+            let id = e.target.id;
+            if (id === 'qty1') {
+                qty1 = e.target.value;
+                totalMoneyById('pattern1');
+            }
+            if (id === 'qty2') {
+                qty2 = e.target.value;
+                totalMoneyById('pattern2');
+            }
+        });
+
+        //event click check box
+        function clickCheckBox(e) {
+            let id = e.id;
+            if (e.checked === true) {
+                totalMoneyById(id);
+            } else {
+                unCheck(id);
+            }
+        }
+
+        function totalMoneyById(id) {
+            if (id === 'pattern1') {
+                total_pattern1 = totalMoney(qty1);
+            }
+            if (id === 'pattern2') {
+                total_pattern2 = totalMoney(qty2);
+            }
+            showTotal(total);
+        }
+
+        function unCheck(id) {
+            if (id === 'pattern1') {
+                total_pattern1 = 0;
+            }
+            if (id === 'pattern2') {
+                total_pattern2 = 0;
+            }
+            showTotal(total);
+        }
+
+        function totalMoney(quantity) {
+            return quantity * price_per;
+        }
+
+        function showTotal(total) {
+            total = total_pattern1 + total_pattern2;
+            $('#total_orders').text(formatNumber(total) + " VNĐ");
+            $('#popup_total').text(formatNumber(total) + " VNĐ");
+        }
+
+        //show thông tin sang popup
+        function showPopup() {
+
+        }
+
+        //format number to string
+        function formatNumber(num) {
+            return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
+        }
+
+        $('#confirm_order').click(function() {
+
+        });
+    </script>
 </body>
 
 </html>
