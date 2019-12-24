@@ -64,7 +64,7 @@ a.nav-link.buy {
 
 footer {
     color: white;
-    background-image: url(./assets/img/footer.svg);
+    background-image: url(./assets/img/footer.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
@@ -404,7 +404,7 @@ h4.confirm {
 
 form.info {
     background-color: white;
-    border-radius: 10px 20px;
+    border-radius: 10px;
     padding: 10px;
     font-size: 14px;
     line-height: 17px;
@@ -424,6 +424,22 @@ form.total {
 
 h4.confirm {
     padding-top: 10px;
+}
+
+p#note {
+    font-weight: normal;
+    line-height: 21px;
+}
+
+h5.status {
+    color: #0084F8;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+p.notify {
+    padding: 20px 0px;
+    margin: 0px;
 }
 
 
@@ -573,5 +589,11 @@ h4.confirm {
     /* footer */
     .container.footer {
         padding-top: 90%;
+    }
+    /* confirm-order */
+    p.notify {
+        padding: 20px 0px;
+        margin: 0px;
+        font-size: 14px;
     }
 }

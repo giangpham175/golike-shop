@@ -20,11 +20,12 @@
 </head>
 
 <body>
-    <!-- <header class="container">
+    <!-- header -->
+    <header class="container">
         <nav class="navbar navbar-expand-md ">
             <a class="navbar-brand" href="index.html">
-                <img src="./assets/img/logo.svg" class="logo">
-                <img src="./assets/img/logo-name.svg" class="logo-name">
+                <img src="./assets/img/logo.png" class="logo">
+                <img src="./assets/img/logo-name.png" class="logo-name">
             </a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">
@@ -51,19 +52,19 @@
                 </ul>
             </div>
         </nav>
-    </header> -->
+    </header>
 
     <div class="container main">
         <!-- banner -->
-        <!-- <div class="row main-banner justify-content-center">
+        <div class="row main-banner justify-content-center">
             <img src="./assets/img/banner.png" class="main" style="max-width: 100%">
             <a class="banner main text-center align-self-end " href="#orderInfo">
                 ĐẶT HÀNG NGAY
             </a>
-        </div> -->
+        </div>
 
         <!-- size -->
-        <!-- <div class="choose-size">
+        <div class="choose-size">
             <h1 class="main text-center">CÁCH CHỌN SIZE ÁO</h1>
             <table class="col-12 col-md-6 table table-bordered text-center boy">
                 <thead class="size">
@@ -143,20 +144,20 @@
                     </tr>
                 </tbody>
             </table>
-        </div> -->
+        </div>
 
         <!-- order -->
-        <!-- <div class="choose-order">
+        <div class="choose-order">
             <h1 class="main text-center">SỞ HỮU MẪU ÁO HẤP DẪN</h1>
             <div class="row order-main">
                 <div class="col-12 col-md-6 girl text-center">
                     <div class="row img-main left">
                         <div class="img-main col-12 col-md-7" style="padding: 0px;">
-                            <img src="./assets/img/order/style-1a.svg" alt="" class="s-main">
+                            <img src="./assets/img/order/style-1a.png" alt="" class="s-main">
                         </div>
                         <div class="img-main col-6 col-md-5" style="padding: 0px;">
-                            <img src="./assets/img/order/style-1b.svg" alt="" class="sb-main">
-                            <img src="./assets/img/order/style-1c.svg" alt="" class="sb-main">
+                            <img src="./assets/img/order/style-1b.png" alt="" class="sb-main">
+                            <img src="./assets/img/order/style-1c.png" alt="" class="sb-main">
                         </div>
                     </div>
                     <div class="d-flex price-l">
@@ -164,16 +165,17 @@
                         <div class="p-2 sale">Giá 80.000 vnđ</div>
                     </div>
                     <a class="btn girl" href="#orderInfo">ĐẶT HÀNG NGAY</a>
+                    <!-- <button type="button" class="btn girl">ĐẶT HÀNG NGAY</button> -->
                 </div>
 
                 <div class="col-12 col-md-6 boy text-center">
                     <div class="row img-main right">
                         <div class="img-main col-12 col-md-7" style="padding: 0px;">
-                            <img src="./assets/img/order/style-2a.svg" alt="" class="s-main">
+                            <img src="./assets/img/order/style-2a.png" alt="" class="s-main">
                         </div>
                         <div class="img-main col-6 col-md-5" style="padding: 0px;">
-                            <img src="./assets/img/order/style-2b.svg" alt="" class="sb-main">
-                            <img src="./assets/img/order/style-2c.svg" alt="" class="sb-main">
+                            <img src="./assets/img/order/style-2b.png" alt="" class="sb-main">
+                            <img src="./assets/img/order/style-2c.png" alt="" class="sb-main">
                         </div>
                     </div>
                     <div class="d-flex price-r">
@@ -181,9 +183,10 @@
                         <div class="p-2 sale r">Giá 80.000 vnđ</div>
                     </div>
                     <a class="btn boy" href="#orderInfo">ĐẶT HÀNG NGAY</a>
+                    <!-- <button type="button" class="btn boy">ĐẶT HÀNG NGAY</button> -->
                 </div>
             </div>
-        </div> -->
+        </div>
 
         <!-- order-info -->
         <div id="orderInfo" class="order-info">
@@ -273,18 +276,33 @@
                             <div class="col-12 col-md-6 info">
                                 <h4 class="confirm">THÔNG TIN SẢN PHẨM</h4>
                                 <form class="info" action="">
-                                    <p>Mẫu: 1</p>
-                                    <p>Size áo: M</p>
-                                    <p>Tổng số lượng áo: <span id="totalQty"></span></p>
+                                    <p>Mẫu 1</p>
+                                    <p>Size áo M</p>
+                                    <p>Số lượng 1 áo</p>
                                 </form>
                             </div>
                         </div>
 
                         <div class="total">
-                            <h4 class="confirm">TỔNG TIỀN</h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4 class="confirm">GHI CHÚ</h4>
+                                    <form class="info note" action="">
+                                        <p id="note" style="font-size: 15px;margin: 0px;">giao vào giờ hành chính</p>
+                                    </form>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <h4 class="confirm">TỔNG TIỀN</h4>
+                                    <form class="info" action="">
+                                        <p id="popup_total" style="font-size: 20px;margin: 0px;">0</p>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- <h4 class="confirm">TỔNG TIỀN</h4>
                             <form class="info" action="">
-                                <p id="popup_total" style="font-size: 20px;margin: 0px;"></p>
-                            </form>
+                                <p id="popup_total" style="font-size: 20px;margin: 0px;">0</p>
+                            </form> -->
                         </div>
                     </div>
 
@@ -296,9 +314,59 @@
                 </div>
             </div>
         </div>
+
+        <!-- confirm-status -->
+        <!-- Success -->
+        <div class="modal fade" id="success" tabindex="-1" role="dialog" aria-labelledby="successOrder" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+
+                    <div class="modal-header d-block" style="border:none;">
+                        <button type="button" class="close float-right" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h5 class="modal-title text-center status" id="successOrder">CHÚC MỪNG BẠN</h5>
+                    </div>
+
+                    <div class="modal-body text-center">
+                        <img src="./assets/img/order/success.png" alt="">
+                    </div>
+                    <div class="text-center" style="border:none;">
+                        <p class="notify">Đơn hàng của bạn đã được tạo, vui lòng giữ điện thoại
+                            <br> để bộ phận bán hàng có thể liên lạc với bạn!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fail -->
+        <div class="modal fade" id="fail" tabindex="-1" role="dialog" aria-labelledby="failOrder" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+
+                    <div class="modal-header d-block" style="border:none;">
+                        <button type="button" class="close float-right" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h5 class="modal-title text-center status" id="failOrder">THẤT BẠI</h5>
+                    </div>
+
+                    <div class="modal-body text-center">
+                        <img src="./assets/img/order/fail.png" alt="">
+                    </div>
+                    <div class="text-center" style="border:none;">
+                        <p class="notify">Mua hàng không thành công!
+                            <br> Vui lòng liên hệ để được hỗ trợ
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- <footer class="container-fluid">
+
+    <!-- footer -->
+    <footer class="container-fluid">
         <div class="container footer">
             <h1 class="row footer">Liên hệ chúng tôi <br></h1>
             <div class="row footer">
@@ -314,7 +382,7 @@
                 </div>
             </div>
         </div>
-    </footer> -->
+    </footer>
     <!-- ---------------------------------- -->
     <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"-->
     <!--        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"-->
@@ -336,20 +404,18 @@
         $(document).ready(function() {
             showTotal(total)
         });
-
         //event change quantity
         $(".qty").change(function(e) {
-            totalQty = qty1 + qty2;
             let id = e.target.id;
             if (id === 'qty1') {
+                qty1 = e.target.value;
                 if ($("#pattern1").is(':checked')) {
-                    qty1 = e.target.value;
                     totalMoneyById('pattern1');
                 }
             }
             if (id === 'qty2') {
-                if ($("#pattern1").is(':checked')) {
-                    qty2 = e.target.value;
+                qty2 = e.target.value;
+                if ($("#pattern2").is(':checked')) {
                     totalMoneyById('pattern2');
                 }
             }
@@ -395,11 +461,6 @@
             $('#popup_total').text(formatNumber(total) + " VNĐ");
         }
 
-        //show thông tin sang popup xác nhận
-        function showPopup() {
-
-        }
-
         //format number to string
         function formatNumber(num) {
             return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
@@ -422,7 +483,7 @@
                     return true;
                 }
             } else {
-                alert('Cái này sẽ show popup thông báo mua hàng thất bại');
+                // alert('Cái này sẽ show popup thông báo mua hàng thất bại');
             }
         });
         $('#confirm_order').click(function() {
@@ -440,6 +501,7 @@
                 let url2 = link + 'name=' + name + '&phone=' + phone + '&address=' + address + '&pattern=Mẫu 2' + '&size=' + size + '&amount=' + $('#qty2').val() + '&total=' + total_pattern1 + '&notes=' + notes + "&status=chờ xác nhận";
                 callApi(url2);
             }
+            alert("show popup thông báo thành công!!");
         });
 
         function callApi(url) {
@@ -453,10 +515,8 @@
                 dataType: 'jsonp',
                 crossDomain: true,
                 data: {},
-                success: function(data) {},
-                error: function(data) {}
+                success: function(data) {}
             });
-            return abc;
         }
     </script>
 </body>
